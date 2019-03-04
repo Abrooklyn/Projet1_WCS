@@ -24,3 +24,30 @@
 .bg-lightblue{
     background-color: lightblue;
 }
+
+.card-deck{
+    margin-top: 1em;
+}
+
+.bd-example{
+    margin-top: 1em;
+}
+
+.media{
+    margin-top: 2em;
+}
+
+.footer{
+    margin-top: 2em;
+}
+
+.btn{
+    margin-top: 1em;
+}
+
+.barre{
+    height: 1px;
+    background-color: lightgray;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
