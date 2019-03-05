@@ -1,0 +1,41 @@
+Festival:
+
+	-helfest:https://www.hellfest.fr/
+	-art to play:http://www.art-to-play.fr/
+	-web 2 day:https://web2day.co/
+lieux insolite:
+
+	-machine de l'ile:https://www.lesmachines-nantes.fr/
+	-bateau:https://www.maillebreze.com/fr
+	pommeraye:http://www.passagepommeraye.fr/
+espace vert:
+
+https://www.nantes.fr/jardins
+	- crapa :https://www.nantes.fr/home/a-votre-service/equipements/parcs--jardins/parc-du-crapa-de-beaulieu.html
+	-jardin des plantes: https://www.nantes.fr/jardin-des-plantes
+	-ile de versaille : https://www.nantes.fr/home/a-votre-service/equipements/parcs--jardins/parc-de-lile-de-versailles.html
+
+lieux historique:
+
+https://www.nantes-tourisme.com/fr/patrimoine-nantais
+	- chateau bretagne : http://www.chateaunantes.fr/fr/histoire
+	-cathédral: http://cathedrale-nantes.fr/
+	-musée jules vere : https://julesverne.nantesmetropole.fr/home.html
+centre commercial :
+
+https://www.evous.fr/Les-Centres-Commerciaux-et-Grands-Magasins-a-Nantes-et-dans-sa-region-proche,1190727.html
+	-atlantis:https://www.atlantis-nantes.com/
+	-beaulieu:https://beaulieu.klepierre.fr/
+	-paridis:http://www.paridis.fr/
+bars
+
+http://www.topito.com/top-meilleurs-bars-nantes-bonne-soiree
+	-atomic-café:https://www.yelp.fr/biz/atomics-caf%C3%A9-nantes
+	-bar a chat:http://lamaison-delise.fr/
+	-bar chimiste:http://www.lelabo-nantes.com/
+
+produis locaux:
+https://www.regal.fr/produits/regionaux/nantes-produits-regionaux-et-bonnes-adresses-13141
+	muscadat:https://www.muscadet.fr/
+	gateau nantais:https://www.nantes.fr/home/a-nantes-et-pas-ailleurs/decouvrir-nantes/les-symboles-nantais/le-gateau-nantais.html
+	curé nantais:http://www.curenantais.com/fr
