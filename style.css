@@ -59,3 +59,7 @@
 .openpage{
     background-color: rgb(137, 194, 212);
 }
+.infoplus a{ 
+    text-decoration: none;
+    color: lightgray;
+}
