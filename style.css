@@ -75,3 +75,7 @@
     background-size: cover;
     width: 25%; 
 }
+
+.container h5{
+    font-weight: bold;
+}
