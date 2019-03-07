@@ -70,3 +70,8 @@
     text-decoration: none;
     color: lightgray;
 }
+
+.logo{
+    background-size: cover;
+    width: 25%; 
+}
