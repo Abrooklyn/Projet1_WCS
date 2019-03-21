@@ -1,24 +1,26 @@
 <footer>
-    <div class="row footer mt-3">
-        <div class="offset-2 col-4 col-md">
-            <h5>Plan du Site</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="home.html">Home</a></li>
-                <li><a class="text-muted" href="blog.html">Blog/Actu</a></li>
-                <li><a class="text-muted" href="gallery.html">Gallerie</a></li>
-                <li><a class="text-muted" href="event.html">Events</a></li>
-                <li><a class="text-muted" href="contact.html">Infos Pratiques</a></li>
-            </ul>
-        </div>
-        <div class="offset-2 col-4 col-md">
-            <h5>Réseaux Sociaux</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="https://fr-fr.facebook.com/wildcodeschool/">Facebook</a></li>
-                <li><a class="text-muted" href="https://twitter.com/wildcodeschool">Twitter</a></li>
-                <li><a class="text-muted" href="https://www.instagram.com/wildcodeschool/?hl=fr">Instagram</a></li>
-                <li><a class="text-muted" href="https://www.youtube.com/playlist?reload=9&list=PLVBvhDBS_eGWurMOYRmudrmxhJs3FYXj6">Youtube</a></li>
-                <li><a class="text-muted" href="https://github.com/Abrooklyn/Projet1_WCS/tree/master">Github</a></li>
-            </ul>
+    <div class="container">
+        <div class="row footer mt-3">
+            <div class="offset-2 col-4 col-md">
+                <h5>Plan du Site</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="home.html">Home</a></li>
+                    <li><a class="text-muted" href="blog.html">Blog/Actu</a></li>
+                    <li><a class="text-muted" href="gallery.html">Gallerie</a></li>
+                    <li><a class="text-muted" href="event.html">Events</a></li>
+                    <li><a class="text-muted" href="contact.html">Infos Pratiques</a></li>
+                </ul>
+            </div>
+            <div class="offset-2 col-4 col-md">
+                <h5>Réseaux Sociaux</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="https://fr-fr.facebook.com/wildcodeschool/">Facebook</a></li>
+                    <li><a class="text-muted" href="https://twitter.com/wildcodeschool">Twitter</a></li>
+                    <li><a class="text-muted" href="https://www.instagram.com/wildcodeschool/?hl=fr">Instagram</a></li>
+                    <li><a class="text-muted" href="https://www.youtube.com/playlist?reload=9&list=PLVBvhDBS_eGWurMOYRmudrmxhJs3FYXj6">Youtube</a></li>
+                    <li><a class="text-muted" href="https://github.com/Abrooklyn/Projet1_WCS/tree/master">Github</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>

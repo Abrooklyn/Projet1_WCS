@@ -11,8 +11,8 @@ $currentpage = $_SERVER['PHP_SELF'];
         </div>
     </div>
     <div class="container no-padding">
-        <div class="row bg-lightblue">
-            <nav class="navbar navbar-expand-lg navbar-light mx-auto">
+        <div class="bg-lightblue fixed">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -35,8 +35,8 @@ $currentpage = $_SERVER['PHP_SELF'];
                 </div>
             </nav>
         </div>
-        <div class="row">
-            <a href="home.php"><img src="img/logo/logo.png" alt="logo" class="logo mx-auto mb-3 mt-2" id="logo"><h1 class="navbar-brand w-50" id="title">Nantes'DrEAM</h1></a>
-        </div>
+    </div>
+    <div class="container col-5 offset-5 float-sm">
+        <a href="home.php"><img src="img/logo/logo.png" alt="logo" class="logo mx-auto mt-2 mb-2" id="logo"><h1 class="navbar-brand" id="title">Nantes'DrEAM</h1></a>
     </div>
 </header>

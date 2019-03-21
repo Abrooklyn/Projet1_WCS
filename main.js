@@ -10,13 +10,13 @@ function scrollHeader() {
 
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         navbar.style.padding = "0px 0px";
-        document.getElementById("logo").style.width = "10%";
-        document.getElementById("title").style.fontSize = "2em";
+        document.getElementById("logo").style.width = "20%";
+        document.getElementById("title").style.fontSize = "1.3em";
         
     } else {
         navbar.style.padding = "10px 10px";
         document.getElementById("logo").style.width = "25%";
-        document.getElementById("title").style.fontSize = "4em";
+        document.getElementById("title").style.fontSize = "3em";
         navbar.style.position = "absolute";
     }
 }
