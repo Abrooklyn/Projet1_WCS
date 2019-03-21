@@ -1,3 +1,16 @@
+<?php
+  function dump($message){
+    echo "<pre>";
+    var_dump()
+    echo "</pre>";
+  }
+
+  var_dump($_REQUEST);
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -39,29 +52,27 @@
   </div>
   <div class="container">
     <h2 class="d-flex justify-content-center mt-5" id="Contact">Contactez nous !</h2>
-    <form>
-      <div class="container">
-        <div class="row">
-          <div class="form-group col-sm-4">
-            <label for="name" class="h4"></label>
-            <input type="text" class="form-control" id="name" placeholder="Nom" required>
+    <div class="row">
+        <form action="" method="GET" class="col-12">
+          <div class="form-group offset-1 col-10">
+            <label for="first-name">First Name</label>
+            <input name="first-name" type="text" id="first-name" class="form-control">
           </div>
-          <div class="form-group col-sm-4">
-            <label for="email" class="h4"></label>
-            <input type="email" class="form-control" id="email" placeholder="Prénom" required>
+          <div class="form-group offset-1 col-10">
+            <label for="last-name">Last Name</label>
+            <input name="last-name" type="text" id="last-name" class="form-control">
           </div>
-          <div class="form-group col-sm-4">
-            <label for="email" class="h4"></label>
-            <input type="email" class="form-control" id="email" placeholder="Email" required>
+          <div class="form-group offset-1 col-10">
+            <label for="email">Email</label>
+            <input name="email" type="email" id="email" class="form-control">
           </div>
-          <div class="form-group col-sm-12">
-            <label for="message" class="h4"></label>
-            <textarea id="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-          </div>
-          <button type="button" class="btn btn-secondary btn-lg btn-block hvr-buzz-out">Envoyer</button>
-        </div>
-      </div>
-    </form>
+          <button type="submit" class="btn btn-secondary hvr-buzz-out offset-2 col-8">Envoyer</button>
+        </form>
+    </div>
+
+
+
+
     <div class="container">
     </div>
     <h2 class="d-flex justify-content-center mt-5" id="numeros utiles">Numéros utiles</h2>
