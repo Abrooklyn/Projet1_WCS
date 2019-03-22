@@ -1,18 +1,24 @@
 <?php
 
-$error = false;
+$error = NULL;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST)){
+    $error = FAlSE;
   if (empty($_POST['first-name'])){
-    $error = true;
+    $error = TRUE;
     $firstNameError = "First name is empty";
-  } if (empty($_POST['last-name'])){
-    $error = true;
-    $firstNameError = "Last name is empty";
-  } if (empty($_POST['email-name']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-    $error = true;
-    $firstNameError = "Email is empty or invalid";
   }
+  if (empty($_POST['last-name'])){
+    $error = TRUE;
+    $lastNameError = "Last name is empty";
+  }
+  if (empty($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+    $error = TRUE;
+    $emailError = "Email is empty or invalid";
+  }
+
+  if($error === FALSE){
+       header ("location: successe.php");}
 }
 ?>
 
@@ -56,24 +62,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST)){
     <div class="container">
       <h2 class="d-flex justify-content-center mt-5" id="Contact">Contactez nous !</h2>
       <div class="row">
-          <form action="" method="GET" class="col-12">
+          <form action="" method="POST" class="col-12">
             <div class="form-group offset-1 col-10">
               <label for="first-name">First Name</label>
-              <input name="first-name" <?php if (!empty($_POST['first-name'])) echo "value=".$_POST['first-name']?> type="text" id="first-name" class="form-control">
-              <?php if (isset($firstNameError)){?>
-                <div class="text-danger"> <?= $firstNameError ?> </div>
-              <?php } ?>
+              <input name="first-name" <?php if (!empty($_POST['first-name'])) echo "value=".$_POST['first-name']?> type="text" id="first-name" class="form-control" required>
+                <?php if (isset($firstNameError)){?>
+                <div class="text-danger"><span> <?php echo $firstNameError ?></span> </div>
+                <?php } ?>
             </div>
             <div class="form-group offset-1 col-10">
               <label for="last-name">Last Name</label>
-              <input name="last-name" <?php if (!empty($_POST['last-name'])) echo "value=".$_POST['last-name']?> type="text" id="last-name" class="form-control">
+              <input name="last-name" <?php if (!empty($_POST['last-name'])) echo "value=".$_POST['last-name']?> type="text" id="last-name" class="form-control" required>
               <?php if (isset($lastNameError)){?>
                 <div class="text-danger"> <?= $lastNameError ?> </div>
               <?php } ?>
             </div>
             <div class="form-group offset-1 col-10">
               <label for="email">Email</label>
-              <input name="email" <?php if (!empty($_POST['email'])) echo "value=".$_POST['email']?> type="email" id="email" class="form-control">
+              <input name="email" <?php if (!empty($_POST['email'])) echo "value=".$_POST['email']?> type="email" id="email" class="form-control" required>
               <?php if (isset($emailError)){?>
                 <div class="text-danger"> <?= $emailError ?> </div>
               <?php } ?>
